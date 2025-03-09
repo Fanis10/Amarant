@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Навигация</title>
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<main class="content">
+			<section class="navigation">
+				<div class="container">
+					<div class="navigation__inner">
+						<ul class="navigation__list">
+							<li><a href="index.html">Главная</a></li>
+							<li>
+								<button class="navigation__btn btn btn-brown" data-modal="contactModal">
+									<span>Обратный звонок</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-brown" data-modal="contactModal2">
+									<span>Заявка на рассрочку</span>
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<div class="modal modal-form" id="contactModal">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<h2 class="modal__title">Заказать обратный звонок</h2>
+				<div class="modal__subtitle">Мы свяжемся с вами в ближайшее время</div>
+				<form class="form">
+					<div class="form-group">
+						<input type="text" placeholder="Ваше имя">
+					</div>
+					<div class="form-group">
+						<input type="tel" placeholder="Ваш телефон">
+					</div>
+					<button class="form-btn btn btn-green">
+						<span>Заказать</span>
+					</button>
+					<div class="form-check">
+						<input type="checkbox">
+						<label>Нажимая на кнопку «Заказать» вы даете согласие на обработку персональных данных</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-form" id="contactModal2">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<div class="modal__icon">
+					<img src="img/modal-icon.webp" alt="">
+				</div>
+				<h2 class="modal__title center-title">Заявка на рассрочку</h2>
+				<form class="form">
+					<div class="form-group">
+						<input type="text" placeholder="Ваше имя">
+					</div>
+					<div class="form-group">
+						<input type="tel" placeholder="Ваш телефон">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Изделие для рассрочки">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="На какой период">
+					</div>
+					<button class="form-btn btn btn-green">
+						<span>Отправить заявку</span>
+					</button>
+					<div class="form-check">
+						<input type="checkbox">
+						<label>Нажимая на кнопку «Заказать» вы даете согласие на обработку персональных данных</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
+
+<style>
+	.navigation {
+		padding: 50px 0;
+	}
+	.navigation__list {
+		display: grid;
+		grid-template-columns: 100%;
+		gap: 24px;
+	}
+	.navigation__list li a {
+		font-size: 24px;
+		line-height: 120%;
+	}
+	.navigation__list li a:hover {
+		color: #f2daaf;
+	}
+	.navigation__list li button {
+		height: 56px;
+		padding: 5px 25px;
+	}
+	.navigation__list li button span {
+		font-size: 24px;
+	}
+</style>
