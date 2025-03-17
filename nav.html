@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Навигация</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
 </head>
 
 
@@ -19,11 +20,15 @@
 					<div class="navigation__inner">
 						<ul class="navigation__list">
 							<li><a href="index.html">Главная</a></li>
+							<li><a href="product-card.html">Карточка товара</a></li>
+							<li><a href="categories.html">Категории</a></li>
 							<li><a href="production.html">Наше производство</a></li>
 							<li><a href="products.html">Продукция</a></li>
 							<li><a href="products2.html">Выполненные работы</a></li>
 							<li><a href="delivery.html">Доставка</a></li>
+							<li><a href="services.html">Услуги</a></li>
 							<li><a href="basket.html">Корзина</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
 							<li>
 								<button class="navigation__btn btn btn-brown" data-modal="contactModal">
 									<span>Обратный звонок</span>
@@ -37,6 +42,16 @@
 							<li>
 								<button class="navigation__btn btn btn-brown" data-modal="contactModal3">
 									<span>Спасибо за обращение</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-brown" data-modal="contactModal4">
+									<span>Цены</span>
+								</button>
+							</li>
+							<li>
+								<button class="navigation__btn btn btn-brown" data-modal="contactModal5">
+									<span>Форма</span>
 								</button>
 							</li>
 						</ul>
@@ -117,6 +132,116 @@
 				<button class="modal__btn btn btn-green _close-modal">
 					<span>Отлично</span>
 				</button>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-price" id="contactModal4">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<h2 class="modal__title">Металлическое крыльцо</h2>
+				<div class="services__btns">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<button class="swiper-slide services__btn btn btn-gray">
+								<span>Формы крыльца</span>
+							</button>
+							<button class="swiper-slide services__btn btn btn-green">
+								<span>Цены на металлическое крыльцо</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<h3 class="modal-price__subtitle h3">Каркас под ступени лестницы сварной из профиля 60х40 мм. Цены от 14.04.2021</h3>
+				<div class="modal-price__overflow">
+					<table class="modal-price__table">
+						<thead>
+							<tr>
+								<th>Ширина крыльца, метров</th>
+								<th>Высота 2-ступени, диапазон (20-40 см)</th>
+								<th>Высота 3-ступени, диапазон (40-60 см)</th>
+								<th>Высота 4-ступени, диапазон (60-80 см)</th>
+								<th>Высота 5-ступеней, диапазон (80-100 см)</th>
+								<th>Высота 6-ступеней, диапазон (80-100 см)</th>
+								<th>Высота 7-ступеней, диапазон (80-100 см)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+							</tr>
+							<tr>
+								<td>1-1.5</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+							</tr>
+							<tr>
+								<td>1.5-2</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+							</tr>
+							<tr>
+								<td>2-2.5</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+							</tr>
+							<tr>
+								<td>2.5-3</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+							</tr>
+							<tr>
+								<td>3-4</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-info" id="contactModal5">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<div class="modal-info__img">
+					<img src="img/modal-img.webp" alt="">
+				</div>
+				<div class="modal-info__desc">
+					<div class="modal-info__title">Форма «Трапеция»</div>
+					<div class="modal-info__text">ФоКомпания «Амарант» обладает собственными производственными мощностями, поэтому принимает заказы не только из готового каталога, но и по эскизам, рисункам, схемам заказчика. Применение высокотехнологичного оборудования и инструмента позволяет реализовывать проекты со сложным дизайном. Перед началом работы функциональность и практичность идеи прорабатывается, затем согласовывается с заказчиком и только после этого передается в производственный цех. По желанию клиента на каждом этапе изготовления может предоставляться подробный фото- и видеоотчет.</div>
+				</div>
 			</div>
 		</div>
 	</div>
