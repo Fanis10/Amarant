@@ -809,28 +809,30 @@
 										</a>
 									</div>
 								</div>
-								<div thumbsslider="" class="gallery__small swiper mySwiper">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<img src="img/product-main__img.webp" alt="">
-										</div>
-										<div class="swiper-slide">
-											<img src="img/product-main__img.webp" alt="">
-										</div>
-										<div class="swiper-slide">
-											<img src="img/product-main__img.webp" alt="">
-											<span class="play">
-												<img src="img/play-icon.svg" alt="">
-											</span>
-										</div>
-										<div class="swiper-slide">
-											<img src="img/product-main__img.webp" alt="">
-										</div>
-										<div class="swiper-slide">
-											<img src="img/product-main__img.webp" alt="">
-										</div>
-										<div class="swiper-slide">
-											<img src="img/product-main__img.webp" alt="">
+								<div class="gallery__small-wrapp">
+									<div thumbsslider="" class="gallery__small swiper mySwiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</div>
+											<div class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</div>
+											<div class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+												<span class="play">
+													<img src="img/play-icon.svg" alt="">
+												</span>
+											</div>
+											<div class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</div>
+											<div class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</div>
+											<div class="swiper-slide">
+												<img src="img/product-main__img.webp" alt="">
+											</div>
 										</div>
 									</div>
 								</div>
@@ -868,11 +870,23 @@
 										</li>
 										<li>
 											<span>Цвет</span>
-											<span class="colors">
-												<i class="color" style="background: #CABBA6"></i>
-												<i class="color" style="background: #F1F1F1"></i>
-												<i class="color" style="background: #E7E0CA"></i>
-												<i class="color" style="background: #AFAFAA"></i>
+											<span class="catalog-sidebar__colors">
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #CABBA6"></label>
+												</span>
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #F1F1F1"></label>
+												</span>
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #E7E0CA"></label>
+												</span>
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #AFAFAA"></label>
+												</span>
 											</span>
 										</li>
 										<li>
@@ -915,7 +929,7 @@
 											<button class="product-main__btn2 btn btn-green">
 												<span>Купить</span>
 											</button>
-											<button class="product-main__btn2 btn btn-white">
+											<button class="product-main__btn2 btn btn-white" data-modal="contactModal2">
 												<i>
 													<img src="img/t-bank.webp" alt="">
 												</i>
@@ -957,7 +971,68 @@
 											лужайке, создавая уютную атмосферу и акцентируя внимание на природной красоте участка.</p>
 									</div>
 								</div>
-								<div data-content-path="2" class="tab__content">Характеристики</div>
+								<div data-content-path="2" class="tab__content">
+									<ul class="product-main__list">
+										<li>
+											<span>Артикул</span>
+											<span>11343545</span>
+										</li>
+										<li>
+											<span>Продукция</span>
+											<span>Продукция</span>
+										</li>
+										<li>
+											<span>Название</span>
+											<span>Название</span>
+										</li>
+										<li>
+											<span>Единица</span>
+											<span>Единица</span>
+										</li>
+										<li>
+											<span>В</span>
+											<span>240</span>
+										</li>
+										<li>
+											<span>Ш</span>
+											<span>120</span>
+										</li>
+										<li>
+											<span>Г</span>
+											<span>50</span>
+										</li>
+										<li>
+											<span>Цвет</span>
+											<span class="catalog-sidebar__colors">
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #CABBA6"></label>
+												</span>
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #F1F1F1"></label>
+												</span>
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #E7E0CA"></label>
+												</span>
+												<span class="catalog-sidebar__color">
+													<input type="checkbox">
+													<label style="background: #AFAFAA"></label>
+												</span>
+											</span>
+										</li>
+										<li>
+											<span>Материал</span>
+											<span>Металл</span>
+										</li>
+										<li>
+											<span>Назначение</span>
+											<span>Коттедж, СНТ, Дача, Загородный дом, Частный дом, Садовый участок, Для клематиса, Для малины,
+												Для винограда</span>
+										</li>
+									</ul>
+								</div>
 								<div data-content-path="3" class="tab__content">Похожие товары</div>
 							</div>
 						</div>
@@ -1249,6 +1324,40 @@
 					</div>
 					<button class="form-btn btn btn-green">
 						<span>Заказать</span>
+					</button>
+					<div class="form-check">
+						<input type="checkbox">
+						<label>Нажимая на кнопку «Заказать» вы даете согласие на обработку персональных данных</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-form" id="contactModal2">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<div class="modal__icon">
+					<img src="img/modal-icon.webp" alt="">
+				</div>
+				<h2 class="modal__title center-title">Заявка на рассрочку</h2>
+				<form class="form">
+					<div class="form-group">
+						<input type="text" placeholder="Ваше имя">
+					</div>
+					<div class="form-group">
+						<input class="phoneNumber" type="tel" placeholder="Ваш телефон">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Изделие для рассрочки">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="На какой период">
+					</div>
+					<button class="form-btn btn btn-green">
+						<span>Отправить заявку</span>
 					</button>
 					<div class="form-check">
 						<input type="checkbox">

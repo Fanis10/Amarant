@@ -796,7 +796,7 @@
 			</section>
 			<section class="catalog">
 				<div class="container">
-					<div class="catalog__inner">
+					<div class="catalog__inner tabs">
 						<h2 class="catalog__title h2">Категории</h2>
 						<div class="tabs-head">
 							<div data-tab-path="1" class="tab btn btn-gray tab--active">Автоматические ворота</div>
@@ -817,11 +817,11 @@
 								</div>
 							</div>
 							<div class="select-body">
-								<div data-tab-path="1" class="select-li select-li--active">Автоматические ворота</div>
-								<div data-tab-path="2" class="select-li">Откатные ворота</div>
-								<div data-tab-path="3" class="select-li">Кованые ворота</div>
-								<div data-tab-path="4" class="select-li">Распашные ворота</div>
-								<div data-tab-path="5" class="select-li">Ворота из профнастила</div>
+								<div data-tab-path="1" class="tab tab--active select-li select-li--active">Автоматические ворота</div>
+								<div data-tab-path="2" class="tab select-li">Откатные ворота</div>
+								<div data-tab-path="3" class="tab select-li">Кованые ворота</div>
+								<div data-tab-path="4" class="tab select-li">Распашные ворота</div>
+								<div data-tab-path="5" class="tab select-li">Ворота из профнастила</div>
 							</div>
 						</div>
 						<div class="catalog__group">
@@ -869,7 +869,7 @@
 									</span>
 								</div>
 								<div class="catalog-sidebar">
-									<div class="catalog-sidebar__items">
+									<form class="catalog-sidebar__items">
 										<div class="catalog-sidebar__item">
 											<div class="catalog-sidebar__subtitle">Цена, ₽</div>
 											<div class="slider-inputs">
@@ -968,319 +968,1464 @@
 												<span>Применить</span>
 											</button>
 										</div>
-									</div>
+									</form>
 								</div>
 							</div>
 							<div class="catalog__right">
-								<div class="catalog__cards">
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
+								<div data-content-path="1" class="tab__content tab__content--active">
+									<div class="catalog__cards">
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
 										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
 										</div>
 									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img2.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
+									<div class="pagination">
+										<a class="pagination__prev" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+										<div class="pagination__items">
+											<a class="pagination__item" href="">1</a>
+											<a class="pagination__item" href="">2</a>
+											<a class="pagination__item" href="">3</a>
+											<a class="pagination__item" href="">...</a>
+											<a class="pagination__item" href="">10</a>
 										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img3.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img4.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img5.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img6.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img4.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img4.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img2.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img3.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img4.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img5.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img6.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
-									</div>
-									<div class="product-card">
-										<div class="product-card__top">
-											<a href="" class="product-card__img">
-												<img src="img/products-img4.webp" alt="">
-											</a>
-											<button class="product-card__favorite favorite">
-												<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
-														stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</button>
-										</div>
-										<div class="product-card__desc">
-											<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
-											<div class="product-card__size">220х100 см</div>
-											<div class="product-card__price">33 000 ₽</div>
-										</div>
+										<a class="pagination__next" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
 									</div>
 								</div>
-								<div class="pagination">
-									<a class="pagination__prev" href="">
-										<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
-												fill="white" />
-										</svg>
-									</a>
-									<div class="pagination__items">
-										<a class="pagination__item" href="">1</a>
-										<a class="pagination__item" href="">2</a>
-										<a class="pagination__item" href="">3</a>
-										<a class="pagination__item" href="">...</a>
-										<a class="pagination__item" href="">10</a>
+								<div data-content-path="2" class="tab__content">
+									<div class="catalog__cards">
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
 									</div>
-									<a class="pagination__next" href="">
-										<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
-												fill="white" />
-										</svg>
-									</a>
+									<div class="pagination">
+										<a class="pagination__prev" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+										<div class="pagination__items">
+											<a class="pagination__item" href="">1</a>
+											<a class="pagination__item" href="">2</a>
+											<a class="pagination__item" href="">3</a>
+											<a class="pagination__item" href="">...</a>
+											<a class="pagination__item" href="">10</a>
+										</div>
+										<a class="pagination__next" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div data-content-path="3" class="tab__content">
+									<div class="catalog__cards">
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<a class="pagination__prev" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+										<div class="pagination__items">
+											<a class="pagination__item" href="">1</a>
+											<a class="pagination__item" href="">2</a>
+											<a class="pagination__item" href="">3</a>
+											<a class="pagination__item" href="">...</a>
+											<a class="pagination__item" href="">10</a>
+										</div>
+										<a class="pagination__next" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div data-content-path="4" class="tab__content">
+									<div class="catalog__cards">
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<a class="pagination__prev" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+										<div class="pagination__items">
+											<a class="pagination__item" href="">1</a>
+											<a class="pagination__item" href="">2</a>
+											<a class="pagination__item" href="">3</a>
+											<a class="pagination__item" href="">...</a>
+											<a class="pagination__item" href="">10</a>
+										</div>
+										<a class="pagination__next" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div data-content-path="5" class="tab__content">
+									<div class="catalog__cards">
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img2.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img3.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img5.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img6.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+										<div class="product-card">
+											<div class="product-card__top">
+												<a href="" class="product-card__img">
+													<img src="img/products-img4.webp" alt="">
+												</a>
+												<button class="product-card__favorite favorite">
+													<svg width="18" height="16" viewBox="0 0 18 16" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd"
+															d="M9.00001 2.726C7.40054 0.887495 4.7278 0.319317 2.72376 2.00284C0.719715 3.68636 0.437573 6.5011 2.01136 8.49223C3.31986 10.1477 7.27983 13.6392 8.5777 14.7693C8.72285 14.8957 8.79547 14.9589 8.88018 14.9838C8.95405 15.0054 9.03494 15.0054 9.1089 14.9838C9.19361 14.9589 9.26614 14.8957 9.41138 14.7693C10.7093 13.6392 14.6692 10.1477 15.9777 8.49223C17.5515 6.5011 17.3037 3.66865 15.2653 2.00284C13.2268 0.337026 10.5995 0.887495 9.00001 2.726Z"
+															stroke="#006B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+													</svg>
+												</button>
+											</div>
+											<div class="product-card__desc">
+												<a href="" class="product-card__name">Декоративный мостик в саду (220х100) см</a>
+												<div class="product-card__size">220х100 см</div>
+												<div class="product-card__price">33 000 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<a class="pagination__prev" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+										<div class="pagination__items">
+											<a class="pagination__item" href="">1</a>
+											<a class="pagination__item" href="">2</a>
+											<a class="pagination__item" href="">3</a>
+											<a class="pagination__item" href="">...</a>
+											<a class="pagination__item" href="">10</a>
+										</div>
+										<a class="pagination__next" href="">
+											<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
+													fill="white" />
+											</svg>
+										</a>
+									</div>
 								</div>
 								<div class="catalog__links">
 									<a class="catalog__link btn btn-gray" href="">Железные</a>
