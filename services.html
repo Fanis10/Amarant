@@ -806,7 +806,7 @@
 							<div class="services-main__price btn btn-brown">
 								<span>от 20 000 рублей</span>
 							</div>
-							<button class="services-main__btn btn btn-brown2">
+							<button class="services-main__btn btn btn-brown2" data-modal="contactModal">
 								<span>Получить консультацию</span>
 							</button>
 						</div>
@@ -871,87 +871,84 @@
 					</div>
 				</div>
 			</section>
-			<section class="services">
+			<section class="services slider">
 				<div class="container">
 					<div class="services__inner">
 						<h2 class="services__title h2">Металлическое крыльцо</h2>
 						<div class="services__btns">
-							<div class="swiper mySwiper">
+							<div class="swiper mySwiper mySwiper1">
 								<div class="swiper-wrapper">
-									<button class="swiper-slide services__btn btn btn-green">
+									<button class="swiper-slide services__btn btn btn-green" data-modal="contactModal5">
 										<span>Формы крыльца</span>
 									</button>
-									<button class="swiper-slide services__btn btn btn-gray">
+									<button class="swiper-slide services__btn btn btn-gray" data-modal="contactModal4">
 										<span>Цены на металлическое крыльцо</span>
 									</button>
 								</div>
 							</div>
 						</div>
-						<div class="services__cards">
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №1</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
+						<div class="services__slider">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide services-card" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №1</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
+									<div class="swiper-slide services-card" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img2.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №2</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
+									<div class="swiper-slide services-card" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img3.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №3</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
+									<div class="swiper-slide services-card" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img4.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №4</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img2.webp" alt="">
+							<div class="services__slider-btns">
+								<div class="swiper-button-prev">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.04423 14.697C8.11156 14.7718 8.16419 14.8598 8.19913 14.956C8.23407 15.0522 8.25062 15.1547 8.24785 15.2577C8.24508 15.3606 8.22303 15.4619 8.18298 15.5559C8.14292 15.6499 8.08563 15.7346 8.01438 15.8053C7.94313 15.8761 7.85932 15.9313 7.76773 15.968C7.67614 16.0047 7.57857 16.0221 7.48059 16.0192C7.3826 16.0163 7.28612 15.9932 7.19665 15.9511C7.10718 15.909 7.02648 15.8488 6.95915 15.774L0.615853 8.71931C0.484856 8.57377 0.411866 8.38108 0.411866 8.1808C0.411866 7.98052 0.484856 7.78783 0.615854 7.64229L6.95916 0.586824C7.02604 0.510351 7.10672 0.448598 7.19652 0.405152C7.28631 0.361707 7.38343 0.337437 7.48224 0.33375C7.58104 0.330063 7.67955 0.347034 7.77206 0.383675C7.86456 0.420317 7.94921 0.475899 8.0211 0.547194C8.09298 0.61849 8.15066 0.704076 8.19078 0.798982C8.2309 0.893889 8.25267 0.996224 8.25483 1.10004C8.25698 1.20386 8.23947 1.3071 8.20332 1.40375C8.16717 1.5004 8.11309 1.58854 8.04423 1.66306L2.18451 8.1808L8.04423 14.697Z"
+											fill="white"></path>
+									</svg>
 								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №2</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
-								</div>
-							</div>
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img3.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №3</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
+								<div class="swiper-button-next">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.622639 1.65605C0.555311 1.58122 0.502677 1.49319 0.46774 1.39698C0.432803 1.30078 0.416247 1.1983 0.419019 1.09537C0.421791 0.992453 0.443836 0.891112 0.483895 0.797139C0.523954 0.703166 0.581242 0.618401 0.652489 0.547683C0.723737 0.476966 0.807548 0.42168 0.899137 0.384984C0.990726 0.348287 1.0883 0.330898 1.18629 0.33381C1.28427 0.336721 1.38075 0.359876 1.47022 0.401952C1.55969 0.444029 1.64039 0.504202 1.70772 0.579038L8.05102 7.63372C8.18201 7.77926 8.255 7.97194 8.255 8.17223C8.255 8.37251 8.18201 8.5652 8.05102 8.71074L1.70772 15.7662C1.64083 15.8427 1.56015 15.9044 1.47035 15.9479C1.38056 15.9913 1.28344 16.0156 1.18464 16.0193C1.08583 16.023 0.987319 16.006 0.894814 15.9694C0.802309 15.9327 0.717657 15.8771 0.645775 15.8058C0.573894 15.7345 0.516216 15.649 0.476092 15.554C0.435968 15.4591 0.414197 15.3568 0.412045 15.253C0.409892 15.1492 0.4274 15.0459 0.463552 14.9493C0.499705 14.8526 0.553781 14.7645 0.622639 14.69L6.48236 8.17223L0.622639 1.65605Z"
+											fill="white"></path>
+									</svg>
 								</div>
 							</div>
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img4.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №4</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
-								</div>
-							</div>
-						</div>
-						<div class="pagination">
-							<a class="pagination__prev" href="">
-								<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
-										fill="white" />
-								</svg>
-							</a>
-							<div class="pagination__items">
-								<a class="pagination__item" href="">1</a>
-								<a class="pagination__item" href="">2</a>
-								<a class="pagination__item" href="">3</a>
-								<a class="pagination__item" href="">...</a>
-								<a class="pagination__item" href="">10</a>
-							</div>
-							<a class="pagination__next" href="">
-								<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
-										fill="white" />
-								</svg>
-							</a>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="services">
+			<section class="services slider">
 				<div class="container">
 					<div class="services__inner">
 						<h2 class="services__title h2">Перила</h2>
@@ -969,66 +966,63 @@
 								если потребуются грузчики, данную услугу нужно заказать заранее.
 							</p>
 						</div>
-						<div class="services__cards">
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №1</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
+						<div class="services__slider">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="services-card swiper-slide" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №1</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
+									<div class="services-card swiper-slide" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img2.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №2</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
+									<div class="services-card swiper-slide" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img3.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №3</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
+									<div class="services-card swiper-slide" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img4.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Форма изделия №4</h3>
+											<div class="services-card__price">2000 ₽ за п.м.</div>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img2.webp" alt="">
+							<div class="services__slider-btns">
+								<div class="swiper-button-prev">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.04423 14.697C8.11156 14.7718 8.16419 14.8598 8.19913 14.956C8.23407 15.0522 8.25062 15.1547 8.24785 15.2577C8.24508 15.3606 8.22303 15.4619 8.18298 15.5559C8.14292 15.6499 8.08563 15.7346 8.01438 15.8053C7.94313 15.8761 7.85932 15.9313 7.76773 15.968C7.67614 16.0047 7.57857 16.0221 7.48059 16.0192C7.3826 16.0163 7.28612 15.9932 7.19665 15.9511C7.10718 15.909 7.02648 15.8488 6.95915 15.774L0.615853 8.71931C0.484856 8.57377 0.411866 8.38108 0.411866 8.1808C0.411866 7.98052 0.484856 7.78783 0.615854 7.64229L6.95916 0.586824C7.02604 0.510351 7.10672 0.448598 7.19652 0.405152C7.28631 0.361707 7.38343 0.337437 7.48224 0.33375C7.58104 0.330063 7.67955 0.347034 7.77206 0.383675C7.86456 0.420317 7.94921 0.475899 8.0211 0.547194C8.09298 0.61849 8.15066 0.704076 8.19078 0.798982C8.2309 0.893889 8.25267 0.996224 8.25483 1.10004C8.25698 1.20386 8.23947 1.3071 8.20332 1.40375C8.16717 1.5004 8.11309 1.58854 8.04423 1.66306L2.18451 8.1808L8.04423 14.697Z"
+											fill="white"></path>
+									</svg>
 								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №2</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
-								</div>
-							</div>
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img3.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №3</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
+								<div class="swiper-button-next">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.622639 1.65605C0.555311 1.58122 0.502677 1.49319 0.46774 1.39698C0.432803 1.30078 0.416247 1.1983 0.419019 1.09537C0.421791 0.992453 0.443836 0.891112 0.483895 0.797139C0.523954 0.703166 0.581242 0.618401 0.652489 0.547683C0.723737 0.476966 0.807548 0.42168 0.899137 0.384984C0.990726 0.348287 1.0883 0.330898 1.18629 0.33381C1.28427 0.336721 1.38075 0.359876 1.47022 0.401952C1.55969 0.444029 1.64039 0.504202 1.70772 0.579038L8.05102 7.63372C8.18201 7.77926 8.255 7.97194 8.255 8.17223C8.255 8.37251 8.18201 8.5652 8.05102 8.71074L1.70772 15.7662C1.64083 15.8427 1.56015 15.9044 1.47035 15.9479C1.38056 15.9913 1.28344 16.0156 1.18464 16.0193C1.08583 16.023 0.987319 16.006 0.894814 15.9694C0.802309 15.9327 0.717657 15.8771 0.645775 15.8058C0.573894 15.7345 0.516216 15.649 0.476092 15.554C0.435968 15.4591 0.414197 15.3568 0.412045 15.253C0.409892 15.1492 0.4274 15.0459 0.463552 14.9493C0.499705 14.8526 0.553781 14.7645 0.622639 14.69L6.48236 8.17223L0.622639 1.65605Z"
+											fill="white"></path>
+									</svg>
 								</div>
 							</div>
-							<div class="services-card">
-								<div class="services-card__img">
-									<img src="img/services-img4.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Форма изделия №4</h3>
-									<div class="services-card__price">2000 ₽ за п.м.</div>
-								</div>
-							</div>
-						</div>
-						<div class="pagination">
-							<a class="pagination__prev" href="">
-								<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
-										fill="white" />
-								</svg>
-							</a>
-							<div class="pagination__items">
-								<a class="pagination__item" href="">1</a>
-								<a class="pagination__item" href="">2</a>
-								<a class="pagination__item" href="">3</a>
-								<a class="pagination__item" href="">...</a>
-								<a class="pagination__item" href="">10</a>
-							</div>
-							<a class="pagination__next" href="">
-								<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
-										fill="white" />
-								</svg>
-							</a>
 						</div>
 					</div>
 				</div>
@@ -1050,7 +1044,7 @@
 							</div>
 						</div>
 						<div class="services__cards">
-							<div class="services-card">
+							<div class="services-card" data-modal="contactModal">
 								<div class="services-card__img">
 									<img src="img/services-img.webp" alt="">
 								</div>
@@ -1059,7 +1053,7 @@
 									<div class="services-card__price">2000 ₽ за п.м.</div>
 								</div>
 							</div>
-							<div class="services-card">
+							<div class="services-card" data-modal="contactModal">
 								<div class="services-card__img">
 									<img src="img/services-img2.webp" alt="">
 								</div>
@@ -1068,7 +1062,7 @@
 									<div class="services-card__price">2000 ₽ за п.м.</div>
 								</div>
 							</div>
-							<div class="services-card">
+							<div class="services-card" data-modal="contactModal">
 								<div class="services-card__img">
 									<img src="img/services-img3.webp" alt="">
 								</div>
@@ -1077,7 +1071,7 @@
 									<div class="services-card__price">2000 ₽ за п.м.</div>
 								</div>
 							</div>
-							<div class="services-card">
+							<div class="services-card" data-modal="contactModal">
 								<div class="services-card__img">
 									<img src="img/services-img4.webp" alt="">
 								</div>
@@ -1093,7 +1087,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="services services2">
+			<section class="services services2 slider2">
 				<div class="container">
 					<div class="services__inner">
 						<h2 class="services__title h2">Дополнительные услуги</h2>
@@ -1111,52 +1105,75 @@
 								если потребуются грузчики, данную услугу нужно заказать заранее.
 							</p>
 						</div>
-						<div class="services__cards services__cards2">
-							<div class="services-card services-card2">
-								<div class="services-card__img">
-									<img src="img/services-img5.webp" alt="">
-								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Площадка перед входом</h3>
-									<div class="services-card__text">Предлагаем площадку любого размера для комфортного открытия двери,
-										создания веранды</div>
-									<div class="services-card__price2 h3">19900 ₽</div>
+						<div class="services__slider2">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide services-card services-card2" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img5.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Площадка перед входом</h3>
+											<div class="services-card__text">Предлагаем площадку любого размера для комфортного открытия
+												двери,
+												создания веранды</div>
+											<div class="services-card__price2 h3">19900 ₽</div>
+										</div>
+									</div>
+									<div class="swiper-slide services-card services-card2" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img6.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Площадка перед входом</h3>
+											<div class="services-card__text">Предлагаем площадку любого размера для комфортного открытия
+												двери,
+												создания веранды</div>
+											<div class="services-card__price2 h3">19900 ₽</div>
+										</div>
+									</div>
+									<div class="swiper-slide services-card services-card2" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img5.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Площадка перед входом</h3>
+											<div class="services-card__text">Предлагаем площадку любого размера для комфортного открытия
+												двери,
+												создания веранды</div>
+											<div class="services-card__price2 h3">19900 ₽</div>
+										</div>
+									</div>
+									<div class="swiper-slide services-card services-card2" data-modal="contactModal">
+										<div class="services-card__img">
+											<img src="img/services-img6.webp" alt="">
+										</div>
+										<div class="services-card__desc">
+											<h3 class="services-card__name h3">Площадка перед входом</h3>
+											<div class="services-card__text">Предлагаем площадку любого размера для комфортного открытия
+												двери,
+												создания веранды</div>
+											<div class="services-card__price2 h3">19900 ₽</div>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div class="services-card services-card2">
-								<div class="services-card__img">
-									<img src="img/services-img6.webp" alt="">
+							<div class="services__slider-btns">
+								<div class="swiper-button-prev">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M8.04423 14.697C8.11156 14.7718 8.16419 14.8598 8.19913 14.956C8.23407 15.0522 8.25062 15.1547 8.24785 15.2577C8.24508 15.3606 8.22303 15.4619 8.18298 15.5559C8.14292 15.6499 8.08563 15.7346 8.01438 15.8053C7.94313 15.8761 7.85932 15.9313 7.76773 15.968C7.67614 16.0047 7.57857 16.0221 7.48059 16.0192C7.3826 16.0163 7.28612 15.9932 7.19665 15.9511C7.10718 15.909 7.02648 15.8488 6.95915 15.774L0.615853 8.71931C0.484856 8.57377 0.411866 8.38108 0.411866 8.1808C0.411866 7.98052 0.484856 7.78783 0.615854 7.64229L6.95916 0.586824C7.02604 0.510351 7.10672 0.448598 7.19652 0.405152C7.28631 0.361707 7.38343 0.337437 7.48224 0.33375C7.58104 0.330063 7.67955 0.347034 7.77206 0.383675C7.86456 0.420317 7.94921 0.475899 8.0211 0.547194C8.09298 0.61849 8.15066 0.704076 8.19078 0.798982C8.2309 0.893889 8.25267 0.996224 8.25483 1.10004C8.25698 1.20386 8.23947 1.3071 8.20332 1.40375C8.16717 1.5004 8.11309 1.58854 8.04423 1.66306L2.18451 8.1808L8.04423 14.697Z"
+											fill="white"></path>
+									</svg>
 								</div>
-								<div class="services-card__desc">
-									<h3 class="services-card__name h3">Площадка перед входом</h3>
-									<div class="services-card__text">Предлагаем площадку любого размера для комфортного открытия двери,
-										создания веранды</div>
-									<div class="services-card__price2 h3">19900 ₽</div>
+								<div class="swiper-button-next">
+									<svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M0.622639 1.65605C0.555311 1.58122 0.502677 1.49319 0.46774 1.39698C0.432803 1.30078 0.416247 1.1983 0.419019 1.09537C0.421791 0.992453 0.443836 0.891112 0.483895 0.797139C0.523954 0.703166 0.581242 0.618401 0.652489 0.547683C0.723737 0.476966 0.807548 0.42168 0.899137 0.384984C0.990726 0.348287 1.0883 0.330898 1.18629 0.33381C1.28427 0.336721 1.38075 0.359876 1.47022 0.401952C1.55969 0.444029 1.64039 0.504202 1.70772 0.579038L8.05102 7.63372C8.18201 7.77926 8.255 7.97194 8.255 8.17223C8.255 8.37251 8.18201 8.5652 8.05102 8.71074L1.70772 15.7662C1.64083 15.8427 1.56015 15.9044 1.47035 15.9479C1.38056 15.9913 1.28344 16.0156 1.18464 16.0193C1.08583 16.023 0.987319 16.006 0.894814 15.9694C0.802309 15.9327 0.717657 15.8771 0.645775 15.8058C0.573894 15.7345 0.516216 15.649 0.476092 15.554C0.435968 15.4591 0.414197 15.3568 0.412045 15.253C0.409892 15.1492 0.4274 15.0459 0.463552 14.9493C0.499705 14.8526 0.553781 14.7645 0.622639 14.69L6.48236 8.17223L0.622639 1.65605Z"
+											fill="white"></path>
+									</svg>
 								</div>
 							</div>
-						</div>
-						<div class="pagination">
-							<a class="pagination__prev" href="">
-								<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M6.45459 1.80453C6.51097 1.74486 6.55506 1.67467 6.58432 1.59797C6.61358 1.52126 6.62744 1.43954 6.62512 1.35748C6.6228 1.27541 6.60434 1.19461 6.57079 1.11968C6.53724 1.04475 6.48926 0.977168 6.42959 0.920781C6.36992 0.864395 6.29973 0.820313 6.22302 0.791054C6.14632 0.761794 6.0646 0.747929 5.98254 0.750251C5.90047 0.752572 5.81967 0.771034 5.74474 0.804584C5.66981 0.838133 5.60222 0.886112 5.54584 0.945781L0.233339 6.57078C0.123628 6.68682 0.0624995 6.84046 0.0624995 7.00015C0.0624995 7.15985 0.123628 7.31349 0.233339 7.42953L5.54584 13.0552C5.60185 13.1161 5.66942 13.1654 5.74463 13.2C5.81983 13.2347 5.90117 13.254 5.98392 13.2569C6.06666 13.2599 6.14917 13.2464 6.22664 13.2171C6.30411 13.1879 6.37501 13.1436 6.43521 13.0868C6.49541 13.0299 6.54372 12.9617 6.57732 12.886C6.61092 12.8103 6.62916 12.7287 6.63096 12.6459C6.63276 12.5632 6.6181 12.4809 6.58782 12.4038C6.55754 12.3267 6.51226 12.2564 6.45459 12.197L1.54709 7.00016L6.45459 1.80453Z"
-										fill="white" />
-								</svg>
-							</a>
-							<div class="pagination__items">
-								<a class="pagination__item" href="">1</a>
-								<a class="pagination__item" href="">2</a>
-								<a class="pagination__item" href="">3</a>
-								<a class="pagination__item" href="">...</a>
-								<a class="pagination__item" href="">10</a>
-							</div>
-							<a class="pagination__next" href="">
-								<svg width="7" height="14" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M0.545412 1.80453C0.489025 1.74486 0.444944 1.67467 0.415684 1.59797C0.386425 1.52126 0.37256 1.43954 0.374881 1.35748C0.377203 1.27541 0.395665 1.19461 0.429214 1.11968C0.462763 1.04475 0.510742 0.977168 0.570412 0.920781C0.630081 0.864395 0.700273 0.820313 0.776978 0.791054C0.853683 0.761794 0.9354 0.747929 1.01746 0.750251C1.09953 0.752572 1.18033 0.771034 1.25526 0.804584C1.33019 0.838133 1.39778 0.886112 1.45416 0.945781L6.76666 6.57078C6.87637 6.68682 6.9375 6.84046 6.9375 7.00015C6.9375 7.15985 6.87637 7.31349 6.76666 7.42953L1.45416 13.0552C1.39815 13.1161 1.33058 13.1654 1.25537 13.2C1.18017 13.2347 1.09883 13.254 1.01608 13.2569C0.933338 13.2599 0.850831 13.2464 0.773358 13.2171C0.695886 13.1879 0.624989 13.1436 0.564789 13.0868C0.504589 13.0299 0.456284 12.9617 0.42268 12.886C0.389076 12.8103 0.370843 12.7287 0.36904 12.6459C0.367238 12.5632 0.381901 12.4809 0.412178 12.4038C0.442456 12.3267 0.487744 12.2564 0.545412 12.197L5.45291 7.00016L0.545412 1.80453Z"
-										fill="white" />
-								</svg>
-							</a>
 						</div>
 					</div>
 				</div>
@@ -1186,34 +1203,32 @@
 				<div class="container">
 					<div class="products-main__inner">
 						<h2 class="products-main__title h2">Выполненные работы</h2>
-						<div class="products-main__cards-wrap">
-							<div class="products-main__cards">
-								<a href="img/products-main__img16.webp" class="products-main__card" data-fancybox="product">
-									<div class="products-main__card-img">
-										<img src="img/products-main__img16.webp" alt="">
-									</div>
-								</a>
-								<a href="img/products-main__img17.webp" class="products-main__card" data-fancybox="product">
-									<div class="products-main__card-img">
-										<img src="img/products-main__img17.webp" alt="">
-									</div>
-								</a>
-								<a href="img/products-main__img18.webp" class="products-main__card" data-fancybox="product">
-									<div class="products-main__card-img">
-										<img src="img/products-main__img18.webp" alt="">
-									</div>
-								</a>
-								<a href="img/products-main__img19.webp" class="products-main__card" data-fancybox="product">
-									<div class="products-main__card-img">
-										<img src="img/products-main__img19.webp" alt="">
-									</div>
-								</a>
-								<a href="img/products-main__img20.webp" class="products-main__card" data-fancybox="product">
-									<div class="products-main__card-img">
-										<img src="img/products-main__img20.webp" alt="">
-									</div>
-								</a>
-							</div>
+						<div class="products-main__cards">
+							<a href="img/products-main__img16.webp" class="products-main__card" data-fancybox="product">
+								<div class="products-main__card-img">
+									<img src="img/products-main__img16.webp" alt="">
+								</div>
+							</a>
+							<a href="img/products-main__img17.webp" class="products-main__card" data-fancybox="product">
+								<div class="products-main__card-img">
+									<img src="img/products-main__img17.webp" alt="">
+								</div>
+							</a>
+							<a href="img/products-main__img18.webp" class="products-main__card" data-fancybox="product">
+								<div class="products-main__card-img">
+									<img src="img/products-main__img18.webp" alt="">
+								</div>
+							</a>
+							<a href="img/products-main__img19.webp" class="products-main__card" data-fancybox="product">
+								<div class="products-main__card-img">
+									<img src="img/products-main__img19.webp" alt="">
+								</div>
+							</a>
+							<a href="img/products-main__img20.webp" class="products-main__card" data-fancybox="product">
+								<div class="products-main__card-img">
+									<img src="img/products-main__img20.webp" alt="">
+								</div>
+							</a>
 						</div>
 						<a class="products-main__btn btn btn-gray" href="">
 							<span>Показать еще</span>
@@ -1531,6 +1546,122 @@
 						<label>Нажимая на кнопку «Заказать» вы даете согласие на обработку персональных данных</label>
 					</div>
 				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-price" id="contactModal4">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<h2 class="modal__title">Металлическое крыльцо</h2>
+				<div class="services__btns">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<button class="swiper-slide services__btn btn btn-gray">
+								<span>Формы крыльца</span>
+							</button>
+							<button class="swiper-slide services__btn btn btn-green">
+								<span>Цены на металлическое крыльцо</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<h3 class="modal-price__subtitle h3">Каркас под ступени лестницы сварной из профиля 60х40 мм. Цены от 14.04.2021
+				</h3>
+				<div class="modal-price__overflow">
+					<table class="modal-price__table">
+						<thead>
+							<tr>
+								<th>Ширина крыльца,метров</th>
+								<th>Высота 2-ступени, диапазон (20-40 см)</th>
+								<th>Высота 3-ступени, диапазон (40-60 см)</th>
+								<th>Высота 4-ступени, диапазон (60-80 см)</th>
+								<th>Высота 5-ступеней, диапазон (80-100 см)</th>
+								<th>Высота 6-ступеней, диапазон (80-100 см)</th>
+								<th>Высота 7-ступеней, диапазон (80-100 см)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+								<td>6 000₽</td>
+							</tr>
+							<tr>
+								<td>1-1.5</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+								<td>9 000₽</td>
+							</tr>
+							<tr>
+								<td>1.5-2</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+								<td>13 500₽</td>
+							</tr>
+							<tr>
+								<td>2-2.5</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+								<td>18 000₽</td>
+							</tr>
+							<tr>
+								<td>2.5-3</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+								<td>22 500₽</td>
+							</tr>
+							<tr>
+								<td>3-4</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+								<td>27 000₽</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal modal-info" id="contactModal5">
+		<div class="modal__dialog">
+			<button type="button" class="_close-modal modal__close" data-bs-dismiss="modal" aria-label="Close">
+				<img src="img/close-icon.svg" alt="">
+			</button>
+			<div class="modal__content">
+				<div class="modal-info__img">
+					<img src="img/modal-img.webp" alt="">
+				</div>
+				<div class="modal-info__desc">
+					<div class="modal-info__title">Форма «Трапеция»</div>
+					<div class="modal-info__text">ФоКомпания «Амарант» обладает собственными производственными мощностями, поэтому
+						принимает заказы не только из готового каталога, но и по эскизам, рисункам, схемам заказчика. Применение
+						высокотехнологичного оборудования и инструмента позволяет реализовывать проекты со сложным дизайном. Перед
+						началом работы функциональность и практичность идеи прорабатывается, затем согласовывается с заказчиком и
+						только после этого передается в производственный цех. По желанию клиента на каждом этапе изготовления может
+						предоставляться подробный фото- и видеоотчет.</div>
+				</div>
 			</div>
 		</div>
 	</div>
